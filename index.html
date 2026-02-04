@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALULATOR</title>
+</head>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: #212121;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .card{
+            width: 100%;
+           max-width: min-content;
+           padding: 20px;
+           background-color: rgb(43, 118, 209);
+           margin-top: 100px;
+           border-radius: 10px;
+        }
+        input{
+            height: 80px;
+            width: 100%;
+            background-color: transparent;
+            border: none;
+            outline: none;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 2rem;
+            text-align: right;
+            border-radius: 10px;
+            border: 1px solid  rgb(35, 60, 91);
+            box-shadow: -2px -2px black  0.1;
+            padding-right: 10px;
+        }
+        .btns{
+            margin-top: 20px;
+            padding-bottom: 0;
+            display: grid;
+            grid-template-columns: 80px 80px 80px 80px;
+            grid-template-rows: 70px 70px 70px 70px 70px;
+            gap: 10px;
+        }
+        .btns button{
+            background-color:rgb(28, 28, 31) ;
+            color:  rgb(43, 118, 209);
+            border: none;
+            border-radius: 10px;
+            font-size: x-large;
+            box-shadow: -2px -2px rgb(241, 236, 236);
+        }
+
+    </style>
+<body>
+    <div class="card">
+     <input type="=text" >
+     <div class="btns">
+        <button class="remover">AC</button>
+        <button class="delete">DE</button>
+        <button class="numbers">.</button>
+        <button class="operaters">/</button>
+        <button class="numbers">7</button>
+        <button class="numbers">8</button>
+        <button class="numbers">9</button>
+        <button class="operaters">*</button>
+        <button class="numbers">4</button>
+        <button class="numbers">5</button>
+        <button class="numbers">6</button>
+        <button class="operaters">-</button>
+        <button class="numbers">1</button>
+        <button class="numbers">2</button>
+        <button class="numbers">3</button>
+        <button class="operaters">+</button>
+        <button class="operaters">00</button>
+        <button class="numbers">0</button>
+        <div class="solve">
+            <button  style="width: 170px;height: 70px;">=</button>
+        </div>
+     </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
