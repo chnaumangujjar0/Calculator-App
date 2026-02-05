@@ -1,6 +1,6 @@
 # Calculator-App
 
-<img src="/calcullator.png" height="400px">
+<img src="/calcullator.png" height="400px" width="100%">
 
 This project is a simple yet functional calculator built using HTML, CSS, and Vanilla JavaScript. It allows users to perform basic arithmetic operations with a clean interface and proper input validation.
 
