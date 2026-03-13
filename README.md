@@ -1,9 +1,8 @@
 # Calculator-App
 
-<img src="/calcullator.png" height="400px" width="100%">
-
 This project is a simple yet functional calculator built using HTML, CSS, and Vanilla JavaScript. It allows users to perform basic arithmetic operations with a clean interface and proper input validation.
-
+## Live Demo
+[Click here to view live demo](https://chnaumangujjar0.github.io/Calculator-App/)
 <h1>🚀 Features</h1>
 
 Perform basic operations: Addition (+), Subtraction (-), Multiplication (*), Division (/)
