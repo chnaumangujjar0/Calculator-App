@@ -54,10 +54,9 @@ solution.addEventListener("click",()=>{
 
 //===========For Double Zero===============
    document.querySelector(".zero").addEventListener("click",()=>{
-     if(input.value==""){
+     if(input.value=="" || input.value=="0"){
         return;
      }
      input.value+="00";
    })
-
 
